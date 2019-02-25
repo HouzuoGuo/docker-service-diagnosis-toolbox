@@ -2,6 +2,16 @@ FROM ubuntu
 
 MAINTAINER Houzuo Guo <guohouzuo@gmail.com>
 
+ARG http_proxy
+ARG https_proxy
+ARG socks_proxy
+ARG all_proxy
+
+ENV http_proxy=$http_proxy
+ENV https_proxy=$https_proxy
+ENV socks_proxy=$socks_proxy
+ENV all_proxy=$all_proxy
+
 WORKDIR /
 
 # Upgrade system packages
