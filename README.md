@@ -8,3 +8,4 @@ This image is nearly identical to https://github.com/HouzuoGuo/docker-diagnosis-
 
 See https://github.com/HouzuoGuo/service-docker-diagnosis-toolbox for more details.
 
+This image is prepared for 64-bit x86 processor architecture.
